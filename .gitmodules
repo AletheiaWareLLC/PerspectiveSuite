@@ -13,3 +13,6 @@
 [submodule "PerspectiveAndroid"]
 	path = PerspectiveAndroid
 	url = git@github.com:AletheiaWareLLC/PerspectiveAndroid.git
+[submodule "AletheiaWareCommonJava"]
+	path = AletheiaWareCommonJava
+	url = git@github.com:AletheiaWareLLC/AletheiaWareCommonJava
