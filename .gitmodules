@@ -16,3 +16,6 @@
 [submodule "AletheiaWareCommonJava"]
 	path = AletheiaWareCommonJava
 	url = git@github.com:AletheiaWareLLC/AletheiaWareCommonJava
+[submodule "JavaCommon"]
+	path = JavaCommon
+	url = git@github.com:winksaville/JavaCommon.git
