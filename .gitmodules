@@ -4,9 +4,6 @@
 [submodule "Perspective"]
 	path = Perspective
 	url = git@github.com:AletheiaWareLLC/Perspective.git
-[submodule "PerspectiveAndroid"]
-	path = PerspectiveAndroid
-	url = git@github.com:AletheiaWareLLC/PerspectiveAndroid.git
 [submodule "JavaCommon"]
 	path = JavaCommon
 	url = git@github.com:winksaville/JavaCommon.git
@@ -25,3 +22,6 @@
 [submodule "JoyAndroid"]
 	path = JoyAndroid
 	url = git@github.com:winksaville/JoyAndroid.git
+[submodule "PerspectiveAndroid"]
+	path = PerspectiveAndroid
+	url = git@github.com:winksaville/PerspectiveAndroid.git
