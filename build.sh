@@ -7,3 +7,8 @@ mkdir -p Go/src
 (cd AletheiaWareCommonJava && ./build.sh)
 (cd JoyJava && ./build.sh)
 (cd PerspectiveJava && ./build.sh)
+
+# Gradle based builds
+(cd AletheiaWareCommonAndroid && ./gradlew build)
+(cd JoyAndroid && ./gradlew build)
+(cd PerspectiveAndroid && ./gradlew build)
