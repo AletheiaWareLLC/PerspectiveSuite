@@ -22,3 +22,6 @@
 [submodule "PerspectiveAndroid"]
 	path = PerspectiveAndroid
 	url = git@github.com:winksaville/PerspectiveAndroid.git
+[submodule "JavaCommon"]
+	path = JavaCommon
+	url = git@github.com:AletheiaWareLLC/JavaCommon
