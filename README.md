@@ -46,3 +46,30 @@ builds are currently unconditionally built.
 ```
 $ ./clean.sh
 ```
+
+## Run using emulator via command line
+
+Run android emulator in a new terminal and then
+list the Android Virtual Devices (avds) and finally
+run the desired avd:
+```
+$ emulator -list-avds
+Pixel_2_API_28
+Pixel_2_API_29
+flutter_emulator
+
+$ emulator @Pixel_2_API_29
+ - Start Android Studio
+ - Select menu "Tools > Android > SDK Manager"
+ - Click "SDK Tools" tab
+ - Check "Android Emulator" checkbox
+ - Click "OK"
+```
+
+Now in terminal used to build everything, use
+adb to install the resulting apk:
+```
+$ adb install ./PerspectiveAndroid/app/build/outputs/apk/debug/app-debug.apk
+Performing Streamed Install
+Success
+```
