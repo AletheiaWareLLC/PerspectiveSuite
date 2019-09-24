@@ -30,12 +30,26 @@ org.gradle.configureondemand=true
 org.gradle.jvmargs=-Xmx3g -XX:MaxPermSize=2048m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8
 ```
 
+## Potential issues
+
+### Gradle
+
+if when executing ./gradlew or gradle and you see error:
+```
+Could not open terminal for stdout: Could not get termcap entry
+```
+
+It means your linux distributation, such as Arch Linux, is not using `termcap`.
+A workaround is to `unset TERM` or `export TERM=xterm`. For more information
+see [github issue 4426](https://github.com/gradle/gradle/issues/4426) and/or
+[this gradle discuss post](https://discuss.gradle.org/t/issue-could-not-open-terminal-for-stdout-could-not-get-termcap-entry/26902).
+
 ## Build
 
 Build everything
 
 ```
-$ ./build.sh
+$ ./gradlew build
 ```
 
 ## Clean
@@ -44,7 +58,7 @@ This only cleans the gradle based builds as other
 builds are currently unconditionally built.
 
 ```
-$ ./clean.sh
+$ ./gradlew clean
 ```
 
 ## Run using emulator via command line
