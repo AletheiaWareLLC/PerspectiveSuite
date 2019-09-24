@@ -6,22 +6,22 @@
 	url = git@github.com:AletheiaWareLLC/Perspective.git
 [submodule "JoyJava"]
 	path = JoyJava
-	url = git@github.com:winksaville/JoyJava.git
+	url = git@github.com:AletheiaWareLLC/JoyJava.git
 [submodule "PerspectiveJava"]
 	path = PerspectiveJava
-	url = git@github.com:winksaville/PerspectiveJava.git
+	url = git@github.com:AletheiaWareLLC/PerspectiveJava.git
 [submodule "AletheiaWareCommonAndroid"]
 	path = AletheiaWareCommonAndroid
-	url = git@github.com:winksaville/AletheiaWareCommonAndroid.git
+	url = git@github.com:AletheiaWareLLC/AletheiaWareCommonAndroid.git
 [submodule "JoyAndroid"]
 	path = JoyAndroid
-	url = git@github.com:winksaville/JoyAndroid.git
+	url = git@github.com:AletheiaWareLLC/JoyAndroid.git
 [submodule "PerspectiveAndroid"]
 	path = PerspectiveAndroid
-	url = git@github.com:winksaville/PerspectiveAndroid.git
+	url = git@github.com:AletheiaWareLLC/PerspectiveAndroid.git
 [submodule "JavaCommon"]
 	path = JavaCommon
-	url = git@github.com:AletheiaWareLLC/JavaCommon
+	url = git@github.com:AletheiaWareLLC/JavaCommon.git
 [submodule "AletheiaWareCommonJava"]
 	path = AletheiaWareCommonJava
 	url = git@github.com:AletheiaWareLLC/AletheiaWareCommonJava.git
