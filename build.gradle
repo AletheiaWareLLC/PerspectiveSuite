@@ -6,6 +6,9 @@
  */
 
 task build() {
+  group = 'Build'
+  description = 'Builds all submodules'
+
   doLast {
     exec {
       executable "./build.sh"
@@ -14,6 +17,9 @@ task build() {
 }
 
 task clean() {
+  group = 'Build'
+  description = 'Cleans all submodules'
+
   doLast {
     exec {
       executable "./clean.sh"
