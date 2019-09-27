@@ -6,23 +6,34 @@
  */
 
 task build() {
-  group = 'Build'
+  group = 'Tools'
   description = 'Builds all submodules'
 
   doLast {
     exec {
-      executable "./build.sh"
+      executable "./tools/build.sh"
     }  
   }
 }
 
 task clean() {
-  group = 'Build'
+  group = 'Tools'
   description = 'Cleans all submodules'
 
   doLast {
     exec {
-      executable "./clean.sh"
+      executable "./tools/clean.sh"
+    }
+  }
+}
+
+task sync() {
+  group = 'Tools'
+  description = 'Pull, synchornize, and update the repo and all submodules'
+
+  doLast {
+    exec {
+	executable "./tools/sync.sh"
     }  
   }
 }
