@@ -30,6 +30,11 @@ org.gradle.configureondemand=true
 org.gradle.jvmargs=-Xmx3g -XX:MaxPermSize=2048m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8
 ```
 
+## Workflow
+
+See [Workflow](https://github.com/AletheiaWareLLC/PerspectiveSuite/wiki/workflow) on the
+PerspectiveSuite [Wiki](https://github.com/AletheiaWareLLC/PerspectiveSuite/wiki).
+
 ## Potential issues
 
 ### Gradle
@@ -59,6 +64,14 @@ builds are currently unconditionally built.
 
 ```
 $ ./gradlew clean
+```
+
+## Sync
+
+Pull, synchronize, and update the repo and all submodules
+
+```
+$ ./gradlew sync
 ```
 
 ## Run using emulator via command line
