@@ -29,7 +29,7 @@ task clean() {
 
 task sync() {
   group = 'Tools'
-  description = 'Pull, synchornize, and update the repo and all submodules'
+  description = 'Pull, synchronize, and update the repo and all submodules'
 
   doLast {
     exec {
