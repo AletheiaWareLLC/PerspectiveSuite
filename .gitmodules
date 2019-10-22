@@ -25,3 +25,12 @@
 [submodule "AletheiaWareCommonJava"]
 	path = AletheiaWareCommonJava
 	url = git@github.com:AletheiaWareLLC/AletheiaWareCommonJava.git
+[submodule "PerspectiveMesh"]
+	path = PerspectiveMesh
+	url = git@github.com:AletheiaWareLLC/PerspectiveMesh.git
+[submodule "PerspectivePuzzle"]
+	path = PerspectivePuzzle
+	url = git@github.com:AletheiaWareLLC/PerspectivePuzzle.git
+[submodule "PerspectiveShader"]
+	path = PerspectiveShader
+	url = git@github.com:AletheiaWareLLC/PerspectiveShader.git
