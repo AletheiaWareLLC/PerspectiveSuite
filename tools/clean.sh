@@ -30,3 +30,5 @@ echo "*** Clean JoyAndroid"
 (cd JoyAndroid && ./gradlew clean)
 echo "*** Clean PerspectiveAndroid"
 (cd PerspectiveAndroid && ./gradlew clean)
+echo "*** Clean PerspectivePotVAndroid"
+(cd PerspectivePotVAndroid && ./gradlew clean)

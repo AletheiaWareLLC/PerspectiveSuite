@@ -38,3 +38,5 @@ echo "*** Build JoyAndroid"
 (cd JoyAndroid && ./gradlew build)
 echo "*** Build PerspectiveAndroid"
 (cd PerspectiveAndroid && ./gradlew build)
+echo "*** Build PerspectivePotVAndroid"
+(cd PerspectivePotVAndroid && ./gradlew build)
